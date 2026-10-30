@@ -9,7 +9,7 @@ export interface AboutSectionProps {
 
 export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenContact }) => {
   const aboutText =
-    "With more than five years of experience in design, i focus on branding, web design, and user experience, i truly enjoy working with businesses that aim to stand out and present their best image. Let's build something incredible together!";
+    "I'm Yoza, an anime artist drawn to expressive characters, atmosphere, and visual storytelling. From original character concepts and fan art to manga-inspired illustrations, cover art, and custom wallpapers, I create artwork that brings ideas and personalities to life. This portfolio is being prepared for a growing collection of paintings and illustrations.";
 
   return (
     <section
