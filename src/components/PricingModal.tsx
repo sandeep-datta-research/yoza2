@@ -10,50 +10,30 @@ export interface PricingModalProps {
 
 const TIERS = [
   {
-    name: '3D Asset',
-    tag: 'Starter',
-    price: '$2,200',
-    period: 'per asset / model',
-    description: 'Detailed 3D models with high-res textures, optimized for web or real-time pipelines.',
-    features: [
-      'Custom 3D modeling & sculpt',
-      'PBR texturing & materials',
-      'Web-ready GLTF / USDZ formats',
-      '3 high-res still render angles',
-      '2 revision rounds',
-    ],
+    name: 'Character Art',
+    tag: 'Portraits & Full Body',
+    price: 'Custom quote',
+    period: 'per commission',
+    description: 'Anime-style character portraits and full-body illustrations shaped around your idea.',
+    features: ['Character portrait or full-body art', 'Expression and pose direction', 'Colour and mood discussion', 'Final digital artwork'],
     highlight: false,
   },
   {
-    name: 'Motion & Render',
-    tag: 'Most Popular',
-    price: '$5,500',
-    period: 'per project scene',
-    description: 'Cinematic 3D animation and photorealistic rendering designed to captivate your audience.',
-    features: [
-      'Complete 3D hero environment',
-      'Lighting & dynamic camera animation',
-      '15-30s 4K 60fps motion render',
-      'Seamless looping social / web cutdowns',
-      'Sound design & color grade',
-      'Dedicated art direction',
-    ],
+    name: 'Original Character',
+    tag: 'Custom Design',
+    price: 'Custom quote',
+    period: 'per character',
+    description: 'A fresh character concept with a distinctive look, outfit, and personality.',
+    features: ['Original character concept', 'Outfit and visual details', 'Expression and pose exploration', 'Final character illustration'],
     highlight: true,
   },
   {
-    name: 'Brand & 3D Web',
-    tag: 'Enterprise / Studio',
-    price: '$11,000+',
-    period: 'comprehensive scope',
-    description: 'Full-spectrum visual identity with 3D web experience, interactive models, and design system.',
-    features: [
-      'Full visual identity & 3D design system',
-      'Interactive 3D web assets & animations',
-      'Multiple scene motion graphics suite',
-      'Custom shader and lighting setup',
-      'Priority delivery & unlimited revisions',
-      'Developer handoff & consulting',
-    ],
+    name: 'Manga & Cover Art',
+    tag: 'Storytelling',
+    price: 'Custom quote',
+    period: 'per project',
+    description: 'Manga-inspired panels, story covers, posters, and dramatic key illustrations.',
+    features: ['Cover or key visual illustration', 'Composition and atmosphere', 'Manga-inspired visual treatment', 'Final digital artwork'],
     highlight: false,
   },
 ];
@@ -84,13 +64,13 @@ export const PricingModal: React.FC<PricingModalProps> = ({
 
         <div className="text-center max-w-xl mx-auto mb-10">
           <span className="text-xs font-semibold uppercase tracking-widest text-[#B600A8]">
-            Investment & Packages
+            Art Commissions
           </span>
           <h3 className="hero-heading text-3xl sm:text-5xl font-black uppercase tracking-tight mt-1 mb-3">
-            Transparent Pricing
+            Commission Types
           </h3>
           <p className="text-[#D7E2EA]/70 font-light text-sm sm:text-base">
-            Every 3D project is custom-crafted to your brand goals. Choose a tier or request a custom scope.
+            Every artwork is discussed individually. Choose the kind of art you have in mind and request a custom quote.
           </p>
         </div>
 
