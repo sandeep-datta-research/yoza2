@@ -63,7 +63,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw] mt-6 sm:mt-4 md:-mt-5 select-none"
             style={{ letterSpacing: '-0.04em' }}
           >
-            Hi, i&apos;m jack
+            Hi, i&apos;m yoza
           </h1>
         </FadeIn>
       </div>
@@ -71,21 +71,13 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       {/* 3. Hero Portrait with Magnet effect */}
       <div className="absolute left-1/2 -translate-x-1/2 z-10 w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px] top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0 pointer-events-auto">
         <FadeIn delay={0.6} y={30} className="w-full flex justify-center">
-          <Magnet
-            padding={150}
-            strength={3}
-            activeTransition="transform 0.3s ease-out"
-            inactiveTransition="transform 0.6s ease-in-out"
-            className="w-full flex justify-center items-end"
-          >
-            <img
-              src="https://shrug-person-78902957.figma.site/_components/v2/d24c01ad3a56fc65e942a1f501eb73db42d7cf9a/Rectangle_40443.81459862.png"
-              alt="Jack - 3D Creator"
-              className="w-full h-auto max-h-[70vh] sm:max-h-[82vh] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)] filter"
-              draggable={false}
-              loading="eager"
-            />
-          </Magnet>
+          <div className="w-full aspect-[4/5] max-h-[70vh] sm:max-h-[82vh] flex items-center justify-center rounded-t-full border border-[#D7E2EA]/20 bg-gradient-to-b from-[#B600A8]/20 via-[#211326] to-transparent shadow-[0_0_100px_rgba(182,0,168,0.12)]">
+              <div className="text-center">
+                <span className="block text-[#D7E2EA]/50 text-xs sm:text-sm tracking-[0.5em] mb-4">ANIME ARTIST</span>
+                <span className="hero-heading block text-white font-black text-[22vw] sm:text-[18vw] md:text-[13vw] leading-none tracking-tighter">Y.</span>
+                <span className="block text-[#D7E2EA]/70 text-sm sm:text-base tracking-[0.35em] mt-3">YOZA</span>
+              </div>
+            </div>
         </FadeIn>
       </div>
 
@@ -97,7 +89,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[160px] sm:max-w-[220px] md:max-w-[260px]"
             style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}
           >
-            a 3d creator driven by crafting striking and unforgettable projects
+            anime artist creating expressive characters and stories through illustration
           </p>
         </FadeIn>
 
