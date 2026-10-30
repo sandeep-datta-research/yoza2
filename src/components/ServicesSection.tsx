@@ -3,41 +3,11 @@ import FadeIn from './FadeIn';
 import { ServiceItem } from '../types';
 
 const SERVICES: ServiceItem[] = [
-  {
-    id: '01',
-    number: '01',
-    title: '3D Modeling',
-    description:
-      'Creation of detailed objects, characters, or environments tailored to specific client needs, ideal for games, products, and visualizations.',
-  },
-  {
-    id: '02',
-    number: '02',
-    title: 'Rendering',
-    description:
-      'High-quality, photorealistic renders that showcase designs with custom lighting, textures, and materials to bring concepts to life.',
-  },
-  {
-    id: '03',
-    number: '03',
-    title: 'Motion Design',
-    description:
-      'Dynamic animations and motion graphics that add energy and storytelling to brands, products, and digital experiences.',
-  },
-  {
-    id: '04',
-    number: '04',
-    title: 'Branding',
-    description:
-      'Crafting cohesive visual identities -- from logos to full brand systems -- that communicate a clear and memorable presence.',
-  },
-  {
-    id: '05',
-    number: '05',
-    title: 'Web Design',
-    description:
-      'Designing clean, modern, and conversion-focused websites with attention to layout, typography, and user experience.',
-  },
+  { id: '01', number: '01', title: 'Anime Character Illustration', description: 'Expressive anime-style character artwork, from clean portraits to detailed full-body illustrations.' },
+  { id: '02', number: '02', title: 'Original Character Design', description: 'Custom character concepts with distinctive outfits, hairstyles, expressions, and personality details.' },
+  { id: '03', number: '03', title: 'Fan Art & Character Portraits', description: 'Personal interpretations of favourite anime characters, made as portraits, posters, and display pieces.' },
+  { id: '04', number: '04', title: 'Manga & Cover Illustration', description: 'Manga-inspired panels, chapter or story covers, and dramatic key visuals with a strong sense of mood.' },
+  { id: '05', number: '05', title: 'Custom Wallpapers & Profile Art', description: 'Personalised wallpapers, avatars, banners, and profile illustrations for digital spaces.' },
 ];
 
 export const ServicesSection: React.FC = () => {
